@@ -13,6 +13,11 @@
     app:behavior_peekHeight="60dp"
     app:layout_behavior="@string/bottom_sheet_behavior">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/image" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/customToolbar"
